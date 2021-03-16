@@ -1,0 +1,17 @@
+.sidebar {
+    background-color: beige;
+    grid-area: sidebar;
+  }
+
+    .item {
+        list-style: none;
+    }
+
+  .link {
+    color: coral;
+      text-decoration: none;
+  }
+
+  .link.activeLink {
+    color:brown;
+  }

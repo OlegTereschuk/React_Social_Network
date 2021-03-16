@@ -1,0 +1,25 @@
+.content {
+    padding: 10px;
+}
+
+.content__container {
+    display: grid;
+    grid-template-columns: 3fr 9fr;
+}
+
+.dialog__items {
+    border-right: 1px solid black;
+}
+
+.dialog__item_link {
+    color: dimgrey;
+    text-decoration: none;
+}
+
+.dialog__item .item_active {
+    color: brown;
+}
+
+.dialog__messages {
+    padding: 10px;
+}
